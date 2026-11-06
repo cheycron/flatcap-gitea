@@ -408,8 +408,8 @@ GROUPS: list[tuple[str, list]] = [
         ("--color-white", "{accent.on}", "Text on every colored fill (buttons, labels, toggles, selection). It is the role accent.on, not white."),
     ]),
     ("Badges and brand", _badges() + [
-        ("--color-git", "{text.secondary}", "Git mark: monochrome."),
-        ("--color-logo", "{accent.fg}", "Gitea mark: the accent."),
+        ("--color-git", "{text.secondary}", "Git mark color (set to secondary text; the Git logo in images keeps its own colors)."),
+        ("--color-logo", "{accent.fg}", "Gitea mark color (set to the accent; the header logo is an image and renders in Gitea green)."),
     ]),
     ("Diff", [
         ("--color-diff-added-fg", "{success.fg}", "Added line text and + sign."),

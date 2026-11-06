@@ -31,7 +31,24 @@
   </tr>
 </table>
 
-<p align="center"><sub>Demo data only (users, organization and repository were created for the screenshots).</sub></p>
+<p align="center"><sub>The screenshots above use demo data only (users, organization and repository were created for them).</sub></p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/cheycron/flatcap-gitea/main/images/dashboard-slate.png" alt="Flatcap Slate on a real Gitea dashboard: contribution heatmap, activity feed and repository list, with private names blurred" width="100%"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/cheycron/flatcap-gitea/main/images/dashboard-daylight.png" alt="Flatcap Daylight on the same real dashboard, with private names blurred" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/cheycron/flatcap-gitea/main/images/repo-slate.png" alt="Flatcap Slate on a real private repository page: file list, description and language bar, with private text blurred" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/cheycron/flatcap-gitea/main/images/repo-daylight.png" alt="Flatcap Daylight on the same real repository page, with private text blurred" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Slate</sub></td>
+    <td align="center"><sub>Daylight</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub>On a real self-hosted instance (private names blurred).</sub></p>
 
 **Flatcap for Gitea** brings the Flatcap visual system to your forge: matte graphite surfaces, one mineral-blue accent, IBM Plex Sans for the interface, Cascadia Code for code and diffs.
 
