@@ -906,6 +906,9 @@ def main() -> int:
     inv = load_inventory()
     groups = {m: mode_vars(theme, m)[0] for m in MODES}
     errs += check_names(groups, inv)
+    if errs:  # unknown or missing variables: contrast cannot be evaluated reliably
+        print("\n".join(f"error: {e}" for e in errs), file=sys.stderr)
+        return 1
     if a.contrast:
         print(contrast_report(theme))
         return 0
