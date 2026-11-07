@@ -1,6 +1,6 @@
 # Flatcap for Gitea
 
-![Version](https://img.shields.io/badge/version-2.0.0-blueviolet) ![Gitea](https://img.shields.io/badge/Gitea-28.2%2B-609926) ![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-2.0.0-blueviolet) ![Gitea](https://img.shields.io/badge/Gitea-28.2%2B-blue) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/cheycron/flatcap-gitea/main/images/screenshot-slate.png" alt="Flatcap Slate in Gitea 28.2: a repository page with the file list and a rendered README, graphite surfaces and a mineral-blue accent" width="100%">
